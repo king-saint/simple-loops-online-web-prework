@@ -1,6 +1,6 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
-
+def 
 def times_iterator(number_of_times)
    number_of_times.times do 
     puts "Welcome to Flatiron School's Web Development Course!"
@@ -10,9 +10,10 @@ end
 
 def while_iterator(number_of_times)
   number = 0
-    while number <= number_of_times
+    while number < number_of_times
+        number += 1 
         puts "Welcome to Flatiron School's Web Development Course!"
-      number += 1  
+       
     end
 end
 

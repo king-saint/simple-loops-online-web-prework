@@ -28,11 +28,11 @@ end
 
 def until_iterator(number_of_times)
 
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  var = 0
-  until var == number_of_times
-    puts phrase
-  var += 1
+    phrase = "Welcome to Flatiron School's Web Development Course!"
+    number = 0
+    until number == number_of_times
+      puts phrase
+    var += 1
   
  end
 end

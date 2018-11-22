@@ -1,5 +1,5 @@
 # REMEMBER: print your output to the terminal using 'puts'
-def loop
+def loops
   x = 0
     loop do
       puts "Welcome to Flatiron School's Web Development Course!"

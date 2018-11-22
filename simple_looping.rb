@@ -9,10 +9,9 @@ def times_iterator(number_of_times)
 end
 
 def while_iterator(number_of_times)
- phrase = "Welcome to Flatiron School's Web Development Course!" 
- number = 0
-  while number <= number_of_times
-      puts phrase
+  number = 0
+    while number <= number_of_times
+      puts "Welcome to Flatiron School's Web Development Course!"
     number += 1  
   end
 end
